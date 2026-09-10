@@ -1,0 +1,39 @@
+name: 錯誤回報
+description: 回報可重現的 HiRodrop 問題
+title: "[錯誤]: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: 請勿附上個人檔案、帳號資料、裝置識別碼或私人封包擷取資料。
+  - type: input
+    id: macos
+    attributes:
+      label: macOS 版本
+    validations:
+      required: true
+  - type: dropdown
+    id: direction
+    attributes:
+      label: 傳送方向
+      options:
+        - Android 傳送至 Mac
+        - Mac 透過 QR code 傳送至 Android
+        - 官方 Windows Quick Share 傳送至 Mac
+        - Mac 傳送至官方 Windows Quick Share
+        - Finder 或分享延伸功能
+        - 其他
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 重現步驟
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: 預期結果與實際結果
+    validations:
+      required: true
