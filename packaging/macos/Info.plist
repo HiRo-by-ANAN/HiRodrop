@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "https://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>zh-Hant</string>
+    <key>CFBundleLocalizations</key>
+    <array>
+        <string>zh-Hant</string>
+        <string>ja</string>
+        <string>en</string>
+    </array>
+    <key>CFBundleDisplayName</key>
+    <string>HiRodrop</string>
+    <key>CFBundleExecutable</key>
+    <string>hirodrop-gui</string>
+    <key>CFBundleIconFile</key>
+    <string>HiRodrop</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.hirodrop.desktop</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>HiRodrop</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>0.1</string>
+    <key>CFBundleGetInfoString</key>
+    <string>HiRodrop 0.1 Beta</string>
+    <key>CFBundleVersion</key>
+    <string>1</string>
+    <key>CFBundleURLTypes</key>
+    <array>
+        <dict>
+            <key>CFBundleURLName</key>
+            <string>HiRodrop Share Handoff</string>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <string>hirodrop</string>
+            </array>
+        </dict>
+    </array>
+    <key>LSMinimumSystemVersion</key>
+    <string>12.0</string>
+    <key>NSHighResolutionCapable</key>
+    <true/>
+    <key>NSLocalNetworkUsageDescription</key>
+    <string>HiRodrop uses your local network to discover and transfer files with nearby Quick Share devices.</string>
+    <key>NSBonjourServices</key>
+    <array>
+        <string>_FC9F5ED42C8A._tcp</string>
+    </array>
+    <key>NSServices</key>
+    <array>
+        <dict>
+            <key>NSMenuItem</key>
+            <dict>
+                <key>default</key>
+                <string>Send with HiRodrop</string>
+            </dict>
+            <key>NSMessage</key>
+            <string>sendFiles</string>
+            <key>NSPortName</key>
+            <string>HiRodrop</string>
+            <key>NSSendTypes</key>
+            <array>
+                <string>public.file-url</string>
+            </array>
+        </dict>
+    </array>
+</dict>
+</plist>

@@ -1,0 +1,8 @@
+"ShareTitle" = "HiRodrop で送信";
+"PreparingFiles" = "共有ファイルを準備しています…";
+"OpeningHiRodrop" = "HiRodrop を開いています…";
+"NoFiles" = "共有できるファイルがありません。";
+"UnreadableFiles" = "共有ファイルを読み込めませんでした。";
+"ServiceUnavailable" = "HiRodrop を一度開いてから、もう一度お試しください。";
+"Retry" = "再試行";
+"Cancel" = "キャンセル";

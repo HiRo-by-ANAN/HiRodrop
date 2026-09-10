@@ -1,0 +1,47 @@
+[package]
+name = "hirodrop-core"
+version = "0.1.0-beta.1"
+edition = "2021"
+license = "GPL-3.0-or-later"
+description = "LAN-first, low-interference file-transfer core for HiRodrop"
+
+[lib]
+name = "hirodrop_core"
+path = "src/lib.rs"
+
+[[bin]]
+name = "hirodrop-gui"
+path = "src/bin/hirodrop-gui.rs"
+
+[dependencies]
+aes = "0.8"
+aes-gcm = "0.10"
+base64 = "0.22"
+cbc = { version = "0.1", features = ["alloc", "block-padding"] }
+eframe = { version = "0.36.2", default-features = false, features = ["default_fonts", "glow"] }
+hkdf = "0.12"
+hmac = "0.12"
+image = { version = "0.25", default-features = false, features = ["png"] }
+mdns-sd = "0.21.2"
+p256 = { version = "0.13", features = ["ecdh"] }
+prost = "0.14"
+qrcode = "0.14"
+rand = "0.8"
+rfd = "0.15"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+sha2 = "0.10"
+socket2 = "0.6"
+thiserror = "2"
+
+[target.'cfg(target_os = "macos")'.dependencies]
+notify-rust = "4.18"
+tray-icon = "0.24"
+
+[target.'cfg(target_os = "macos")'.build-dependencies]
+cc = "1"
+
+[profile.release]
+# Distribution builds should not retain local build-machine paths or symbols.
+strip = true
+lto = "thin"

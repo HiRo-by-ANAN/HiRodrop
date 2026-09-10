@@ -1,0 +1,8 @@
+"ShareTitle" = "使用 HiRodrop 傳送";
+"PreparingFiles" = "正在準備分享的檔案…";
+"OpeningHiRodrop" = "正在開啟 HiRodrop…";
+"NoFiles" = "這次分享沒有可傳送的檔案。";
+"UnreadableFiles" = "HiRodrop 無法讀取分享的檔案。";
+"ServiceUnavailable" = "請先開啟 HiRodrop 一次，再重新嘗試。";
+"Retry" = "重試";
+"Cancel" = "取消";

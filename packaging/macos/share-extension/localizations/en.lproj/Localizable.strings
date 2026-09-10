@@ -1,0 +1,8 @@
+"ShareTitle" = "Send with HiRodrop";
+"PreparingFiles" = "Preparing shared files…";
+"OpeningHiRodrop" = "Opening HiRodrop…";
+"NoFiles" = "No shareable files were provided.";
+"UnreadableFiles" = "HiRodrop could not read the shared files.";
+"ServiceUnavailable" = "Open HiRodrop once, then try again.";
+"Retry" = "Retry";
+"Cancel" = "Cancel";
