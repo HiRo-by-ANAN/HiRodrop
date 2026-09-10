@@ -1,0 +1,21 @@
+/target/
+/dist/
+/test-received/
+
+.DS_Store
+*.log
+.env
+.env.*
+!.env.example
+
+# Apple signing credentials and provisioning files must never be committed.
+*.cer
+*.crt
+*.der
+*.key
+*.p8
+*.p12
+*.pem
+*.pfx
+*.mobileprovision
+*.provisionprofile
