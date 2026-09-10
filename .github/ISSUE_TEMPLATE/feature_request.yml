@@ -1,0 +1,21 @@
+name: 功能建議
+description: 提出範圍明確的改善建議
+title: "[功能]: "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: 希望解決的問題
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 建議的功能行為
+    validations:
+      required: true
+  - type: textarea
+    id: privacy
+    attributes:
+      label: 對隱私與互通性的影響
