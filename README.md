@@ -22,6 +22,22 @@ HiRodrop 是一套建立在 Quick Share 相容協定上的 macOS 應用程式，
 > [!WARNING]
 > HiRodrop 目前仍是 Beta 版本。請先備份重要資料，並優先使用測試檔案驗證功能。使用前也請閱讀下方的[已知限制](#已知限制)與[免責聲明](#免責聲明)。
 
+## 實際互通畫面
+
+以下畫面來自實體裝置測試；公開版本已遮蔽裝置名稱、PIN 與 QR code 等測試識別資料。
+
+| macOS → Windows Quick Share | Windows Quick Share → macOS |
+| --- | --- |
+| ![macOS 傳送檔案至 Windows Quick Share](docs/screenshots/macos-to-windows.png) | ![Windows Quick Share 傳送檔案至 macOS](docs/screenshots/windows-to-macos.png) |
+
+| macOS → Android Quick Share（QR code） | Android Quick Share → macOS |
+| --- | --- |
+| ![macOS 透過 QR code 傳送檔案至 Android Quick Share](docs/screenshots/macos-to-android-qr.png) | ![Android Quick Share 傳送檔案至 macOS](docs/screenshots/android-to-macos.png) |
+
+| macOS → macOS |
+| --- |
+| ![兩台 Mac 之間傳送檔案](docs/screenshots/macos-to-macos.png) |
+
 ## 功能
 
 - 比照官方軟體的操作方式，以 PIN 核對及明確同意流程進行檔案傳送與接收。
